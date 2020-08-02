@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#button_head {
+  border: 1px solid lightgray;
+  background-color: white;
+  float: right;
+  height: 3.25em;
+  line-height: 3.25em;
+  border-radius: 4px;
+  padding: 0px 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: gray;
+  outline: none;
+}
+#menu {
+  width: 120px;
+}
+#menu:hover {
+  cursor: pointer;
+}
+#head:hover {
+  cursor: pointer;
+}
+#button_head:hover {
+  cursor: pointer;
+  background-color: rgba(144, 144, 144, 0.075);
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.075);
+}
+#banner {
+  width: 100%;
+  height: 800px;
+  padding: 80px 0 0 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("banner.jpg");
+  background-position: center;
+}
+#p {
+  font-size: 20px;
+  color: darkgray;
+}
+#started {
+  border: none;
+  background-color: #f6755e;
+  font-size: 21px;
+  height: 3.25em;
+  line-height: 2.25em;
+  border-radius: 4px;
+  padding: 0px 48px;
+  text-align: center;
+  margin: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  outline: none;
+}
+#started:hover {
+  cursor: pointer;
+}
+#one_wrapper {
+  display: flex;
+  padding: 15px 0 5em 172px;
+  padding-top: 125px;
+  color: darkgray;
+}
+#body_left {
+  padding: 0 0 0 250px;
+}
+#body_img {
+  margin: -36px 0px 0px 100px;
+  width: 300px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+#body_right {
+  float: right;
+  padding: 0 104px;
+}
+#two_wrapper {
+  display: flex;
+  padding: 104px 0px 69.333px 10px;
+  background: #f6755e;
+  color: #fcdcd6;
+}
+#one_body {
+  padding: 0 0 0 630px;
+}
+#two_body {
+  padding: 145px 0 0 0;
+  margin: 0 0 0 -362px;
+}
+#three_wrapper {
+  display: flex;
+  color: darkgray;
+  padding: 0 0 100px 375px;
+}
+#one_picture {
+  padding: 88px 0 0 0;
+}
+#two_picture {
+  padding: 88px 0 0 0;
+}
+#three_picture {
+  padding: 88px 0 0 0;
+}
+#border_body1 {
+  border: 1px solid darkgray;
+  margin: -4px 134px 0px 0px;
+  padding: 22px 22px 22px 22px;
+}
+#border_body2 {
+  border: 1px solid darkgray;
+  margin: -4px 134px 0px 0px;
+  padding: 22px 22px 22px 22px;
+}
+#border_body3 {
+  border: 1px solid darkgray;
+  margin: -4px 142px 0px 0px;
+  padding: 22px 22px 22px 22px;
+}
+#footer {
+  padding: 104px 0px 100px 0;
+  background-color: #25a2c3;
+}
+#footer_head {
+  padding: 0 0 0 836px;
+  margin: 0 0 25.667px 0;
+  font-size: 33px;
+  color: white;
+}
+#action {
+  display: flex;
+  padding: 0 0 0 525px;
+  margin: 0 0 29.333px 0;
+  color: #c8e7f0;
+}
+#copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 22px 110px 22px 110px;
+  width: 15%;
+  margin: 0 0 0 36%;
+  font-size: 12px;
+  color: #a7d9e7;
+  text-align: center;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.one {
+  padding: 0 0 22px 142px;
+}
+.two {
+  padding: 75px 0 22px 72px;
+}
+.three {
+  padding: 0 0 22px 154px;
+}
+.four {
+  padding: 75px 0 22px 106px;
+}
+.one_font {
+  text-align: center;
+  color: white;
+  margin: 0 0 30.333px 0;
+  font-size: 33px;
+  font-family: "Montserrat", sans-serif;
+}
+.two_font {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.magna {
+  text-align: center;
+}
+.ceo {
+  text-align: center;
+}
+.img_1 {
+  width: 68%;
+}
+.head_font1 {
+  margin: 0 0 18.333px 0;
+}
+.call {
+  padding: 0px 29.333px 0px 0px;
+}
+.call:hover {
+  cursor: pointer;
+}
+.mail {
+  padding: 0px 29.333px 0px 0px;
+}
+.mail:hover {
+  cursor: pointer;
+}
+.pin {
+  padding: 0px 29.333px 0px 0px;
+}
+.pin:hover {
+  cursor: default;
+}
+.img_call {
+  padding: 0 4px 0 29.333px;
+  width: 13px;
+}
+.img_mail {
+  padding: 0 4px 0 29.333px;
+  width: 15px;
+}
+.img_pin {
+  padding: 0 2px 0 29.333px;
+  width: 15px;
+}
+a {
+  color: #c8e7f0;
+  text-decoration: none;
+}
+h1 {
+  font-size: 3em;
+  color: #25a2c3;
+  margin: 30px;
+  padding-top: 140px;
+}
+h3 {
+  color: #25a2c3;
+}
