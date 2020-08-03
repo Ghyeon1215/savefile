@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  padding: 10px 490px 15px 800px;
+  border-bottom: 1px solid darkgray;
+}
+
+#img_agora {
+  width: 80px;
+  padding: 0px 75px 0px 0px;
+}
+
+#img_agora:hover {
+  cursor: pointer;
+}
+
+#search {
+  margin: 15px 50px 20px 0px;
+  padding: 0px 30px 0px 25px;
+}
+
+.log {
+  padding: 10px 8px 0px 8px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 3px;
+}
+
+.log:hover {
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  color: white;
+  cursor: pointer;
+}
+
+#write {
+  margin: 10px 200px 10px 0px;
+  padding: 10px 50px 10px 40px;
+  color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.title {
+  padding: 0px 5px 0px 0px;
+  font-size: 24px;
+}
+
+.comments {
+  padding: 25px 0px 750px 400px;
+  margin: 15px 1200px 0px 0px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+}
