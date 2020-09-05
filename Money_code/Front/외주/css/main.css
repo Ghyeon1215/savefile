@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body {
+    background: #f5f6f7;
+}
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-family: 'Do Hyeon', sans-serif;
+    height: 8%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.titleName {
+    display: block;
+    width: 15%;
+    text-align: center;
+}
+
+.myName {
+    font-size: 1.7em;
+    color: #00cbcc;
+    text-decoration: none;
+}
+.myName:hover {
+    cursor: pointer;
+    color: #76ffff;
+}
+.titleNav {
+    width: 80%;
+}
+.title_ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+.title_li {
+    padding: 0 2em;
+    font-style: italic;
+} 
+.linkNextpage {
+    text-decoration: none;
+    color: black;
+}
+.linkNextpage:hover {
+    cursor: pointer;
+    color: #8d8d8d;
+    border-bottom: 1px solid #8d8d8d;
+}
+.container {
+    margin-top: 5%;
+}
+.bodyAll {
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: black;
+}
+.bodyAllc {
+    border: 1px solid darkgray;
+    background: #fcfffa;
+    margin: .6em .6em;
+}
+.bodyTop {
+    display: flex;
+    justify-content: center;
+}
+.topImg {
+    border: 1px solid snow;
+    border-radius: 100%;
+    background-image: url(../img/Jisoo.jpg);
+    background-size: cover;
+    width: 265px;
+    height: 300px;
+}
+.myInfo {
+    width: 100%;
+}
+.ul_info {
+    list-style: none;
+    text-align: center;
+    padding: 0 2em;
+}
+.li_info {
+    padding: .2em 0;
+    font-family: 'Gugi', 'sans-serif';
+    margin: 2em;
+}
+h3 {
+    font-size: 20px;
+    margin: 5px;
+    color: #37474f;
+}
+h3:hover {
+    cursor: default;
+    text-decoration-line: underline;
+}   
+h5 {
+    margin: 0;
+}
+h5:hover {
+    cursor: default;
+}
+.mySns {
+    font-family: 'Gugi', 'sans-serif';
+    text-align: center;
+    margin-top: 2em;
+}
+.sns_instar {
+    margin: 1em;
+}
+.fa-instagram {
+    font-size: 24px;
+    color: #b0bec5;
+    text-decoration: none;
+}
+.fa-instagram:hover {
+    cursor: pointer;
+}
