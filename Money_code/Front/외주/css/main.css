@@ -23,7 +23,6 @@ body {
     width: 15%;
     text-align: center;
 }
-
 .myName {
     font-size: 1.7em;
     color: #00cbcc;
@@ -40,6 +39,7 @@ body {
     display: flex;
     list-style: none;
     justify-content: flex-start;
+    align-items: center;
 }
 .title_li {
     padding: 0 2em;
@@ -124,4 +124,19 @@ h5:hover {
 }
 .fa-instagram:hover {
     cursor: pointer;
+}
+.myEmail {
+    text-align: center;
+    padding: .2em;
+    margin-bottom: 2em;
+}
+.Email_uts {
+    padding: .2em;
+}
+.text_uts {
+    text-decoration: none;
+    color: black;
+}
+.text_uts:hover {
+    color: slategrey;
 }

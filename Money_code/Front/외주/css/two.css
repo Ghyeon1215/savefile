@@ -39,10 +39,11 @@ body {
 .title_ul {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 .title_li {
-    padding: 0 4em;
+    padding: 0 2em;
     font-style: italic;
 } 
 .linkNextpage {
@@ -53,4 +54,92 @@ body {
     cursor: pointer;
     color: #8d8d8d;
     border-bottom: 1px solid #8d8d8d;
+}
+.container {
+    margin-top: 5%;
+}
+.body_Lotte {
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1%;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto 1em;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.img_HomeLotte {
+    padding: .1em 0;
+}
+.img_HomeLotte:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.imgLotte {
+    border: 1px solid white;
+    border-radius: 1%;
+    width: 100%;
+}
+.body_culture {
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1%;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto 1em;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.img_HomeCulture {
+    padding: .1em 0;
+}
+.img_HomeCulture:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.imgCulture {
+    border: 1px solid white;
+    border-radius: 1%;
+    width: 100%;
+}
+.body_Food {
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1%;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto 1em;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.img_HomeFood {
+    padding: .1em 0;
+}
+.img_HomeFood:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.imgFood {
+    border: 1px solid white;
+    border-radius: 1%;
+    width: 100%;
+}
+h5 {
+    margin: 0;
+}
+h5:hover {
+    cursor: default;
+}
+p {
+    margin: .5em;
+}
+p:hover {
+    cursor: default;
+    text-decoration: underline;
 }

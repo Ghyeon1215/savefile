@@ -56,42 +56,43 @@ body {
     border-bottom: 1px solid #8d8d8d; 
 }
 .container {
-    margin-top: 5%;
+    margin-top: 6%;
 }
-.body_Badminton {
-    text-align: center;
-    border: 1px solid white;
+.write_content {
+    display: flex;
+    justify-content: center;
+}
+.wrap_all {
+    border: 1px solid #f5f6f7;
+    border-radius: 30px;
     background-color: white;
-    border-radius: 1%;
-    width: 40%;
-    height: 100%;
-    margin: 0 auto 1em;
-    font-family: 'Do Hyeon', sans-serif;
+    width: 50%;
+    padding: 2% 1%;
 }
-.img_HomeBadminton {
-    padding: .1em 0;
+.header_content {
+    text-align: center;
 }
-.img_HomeBadminton:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+.header_culture {
+    font-family: 'Do Hyeon', 'sans-serif';
+    font-size: 20px;
+    margin: 5px;
+    color: #37474f;
 }
-.imgBadminton {
-    border: 1px solid white;
-    border-radius: 1%;
-    width: 100%;
-}
-h5 {
-    margin: 0;
-}
-h5:hover {
-    cursor: default;
-}
-p {
-    margin: .5em;
-}
-p:hover {
+.header_culture:hover {
     cursor: default;
     text-decoration: underline;
+    text-decoration-color: #37474f;
+}
+.body_content {
+    text-align: justify;
+    padding: 2em 3.5em;
+}
+.content_culture {
+    color: #424242;
+    font-size: 115%;
+    font-weight: 400;
+    font-family: 'Do Hyeon', 'sans-serif';
+}
+.content_culture:hover {
+    cursor: default;
 }
