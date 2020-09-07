@@ -72,8 +72,7 @@ body {
     padding: .1em 0;
 }
 .img_HomeBadminton:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: blur(2px);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
