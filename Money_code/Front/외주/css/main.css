@@ -65,6 +65,7 @@ body {
     background: black;
 }
 .bodyAllc {
+    display: block;
     border: 1px solid darkgray;
     background: #fcfffa;
     margin: .6em .6em;
@@ -83,11 +84,14 @@ body {
 }
 .myInfo {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .ul_info {
     list-style: none;
     text-align: center;
     padding: 0 2em;
+    margin: 0;
 }
 .li_info {
     padding: .2em 0;
@@ -112,7 +116,6 @@ h5:hover {
 .mySns {
     font-family: 'Gugi', 'sans-serif';
     text-align: center;
-    margin-top: 2em;
 }
 .sns_instar {
     margin: 1em;
